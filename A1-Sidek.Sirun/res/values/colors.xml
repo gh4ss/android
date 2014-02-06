@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="dragndrop_background">#e0103010</color>
+    <color name="purple">#800080</color>
+    <color name="orange">#FFA500</color>
+    <color name="maroon">#800000</color>
+    <color name="lime">#00FF00</color>
+    <color name="magenta">#FF00FF</color>
+</resources>

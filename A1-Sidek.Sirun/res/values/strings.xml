@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A1-Sidek.Sirun</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hola_mundo">Hola Mundo!!</string>
+    <string name="ciao_mundo">Ciao Mundo!!!</string>
+
+</resources>

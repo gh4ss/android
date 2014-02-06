@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <TextView
+	    android:id="@+id/text_view1"
+	    style="@style/BoldText"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left"
+        android:textSize="@dimen/header_text"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+		android:text="@string/hello_world" />
+
+   <TextView
+       android:id="@+id/text_view2"
+       style="@style/BodyText"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view1"
+       android:layout_below="@+id/text_view1"
+       android:gravity="center"
+       android:textColor="@color/maroon"
+       android:typeface="sans"
+       android:text="@string/hola_mundo" />
+
+   <TextView
+       android:id="@+id/text_view3"
+       style="@style/BodyText"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view2"
+       android:layout_below="@+id/text_view2"
+       android:gravity="right"
+       android:textColor="@color/magenta"
+       android:textStyle="italic"
+       android:text="@string/ciao_mundo" />
+
+   <TextView
+       android:id="@+id/text_view4"
+       style="@style/BodyText"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view3"
+       android:layout_below="@+id/text_view3"
+       android:gravity="left"
+       android:textColor="@color/lime"
+       android:text="@string/hello_world" />
+
+   <TextView
+       android:id="@+id/text_view5"
+       style="@style/BodyText"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view4"
+       android:layout_below="@+id/text_view4"
+       android:gravity="center"
+       android:textColor="@color/orange"
+       android:typeface="sans"
+       android:text="@string/hola_mundo" />
+
+   <TextView
+       android:id="@+id/text_view6"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view5"
+       android:layout_below="@+id/text_view5"
+       android:gravity="right"
+       android:textStyle="italic"
+       android:text="@string/ciao_mundo"
+       android:textColor="@color/green"
+       android:textSize="@dimen/body_text" />
+
+   <TextView
+       android:id="@+id/text_view7"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view6"
+       android:layout_below="@+id/text_view6"
+       android:gravity="center"
+       android:text="@string/hello_world"
+       android:textColor="@color/blue"
+       android:textSize="@dimen/body_text" />
+
+   <TextView
+       android:id="@+id/text_view8"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view7"
+       android:layout_below="@+id/text_view7"
+       android:text="@string/hello_world"
+       android:textColor="@color/blue"
+       android:textSize="@dimen/body_text" />
+
+   <TextView
+       android:id="@+id/text_view9"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view8"
+       android:layout_below="@+id/text_view8"
+       android:gravity="right"
+       android:typeface="sans"
+       android:text="@string/hola_mundo"
+       android:textColor="@color/red"
+       android:textSize="@dimen/body_text" />
+
+   <TextView
+       android:id="@+id/text_view10"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/text_view9"
+       android:layout_below="@+id/text_view9"
+       android:gravity="center"
+       android:textStyle="italic"
+       android:text="@string/ciao_mundo"
+       android:textColor="@color/purple"
+       android:textSize="@dimen/body_text" />
+      
+</RelativeLayout>
