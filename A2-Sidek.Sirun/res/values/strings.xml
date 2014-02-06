@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A2-Sidek.Sirun</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_label">My Ebay Inventory</string>
+    <string name="item_label">Item</string>
+    <string name="itemName_label">Item</string>
+    <string name="condition_label">Condition</string>
+    <string name="itemCondition_label">Condition</string>
+    <string name="new_label">New</string>
+    <string name="itemNew_label">New</string>    
+    <string name="used_label">Used</string>
+    <string name="itemUsed_label">Used</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="itemQuantity_label">Quantity</string>
+    <string name="price_label">Price/Unit</string>
+    <string name="itemPrice_label">Price/Unit</string>
+    <string name="checkbox_label">Free Shipping</string>
+    <string name="itemFreeShipping_label">Free Shipping</string>
+    <string name="itemFreeShipping_value">Yes</string>
+    <string name="itemNotFreeShipping_value">No. Ask For Shipping Cost</string>
+    <string name="enter_label">Enter</string>
+    <string name="clear_label">Clear</string>
+    <string name="report_label">Report Inventory</string>
+    <string name="reportTitle_label">My Ebay Inventory Report</string>   
+    <string name="please_wait_label">Generating report. Please wait</string>
+
+</resources>

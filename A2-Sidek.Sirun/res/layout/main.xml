@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:paddingLeft="8dp"
+  android:paddingRight="8dp"
+  >
+  
+  <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    > 
+    <TextView
+      android:id="@+id/titleView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:text="@string/title_label"
+      android:textAppearance="?android:attr/textAppearanceLarge" 
+      />
+  </LinearLayout>
+    
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingRight="8dip"
+      android:text="@string/itemName_label" />
+    <EditText
+      android:id="@+id/itemName_edit"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" 
+      />
+  </LinearLayout>
+  
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingRight="8dip"
+      android:text="@string/itemPrice_label" 
+      />
+    <EditText
+      android:id="@+id/itemPrice_edit"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:inputType="numberDecimal" 
+      />
+  </LinearLayout>
+  
+   <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingRight="8dip"
+      android:text="@string/itemQuantity_label"
+      />
+    <EditText
+      android:id="@+id/itemQuantity_edit"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      />
+  </LinearLayout>
+  
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+      <RadioButton
+        android:id="@+id/itemNew_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itemNew_label"
+        />
+
+      <RadioButton
+        android:id="@+id/itemUsed_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itemUsed_label"
+        />
+    </RadioGroup>
+  </LinearLayout>
+  
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <CheckBox
+      android:id="@+id/itemFreeshippingCheckbox"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/checkbox_label"
+      />
+  </LinearLayout>
+  
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <Button
+      android:id="@+id/ok_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/enter_label"
+      android:onClick="onOKButtonClick"
+      />
+     <Button
+      android:id="@+id/clear_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/clear_label"
+      android:onClick="onClearButtonClick"
+      />
+     <Button
+      android:id="@+id/report_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/report_label"
+      android:onClick="onReportButtonClick"
+      />
+  </LinearLayout>
+</LinearLayout>
