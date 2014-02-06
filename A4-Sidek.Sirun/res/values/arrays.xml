@@ -1,0 +1,27 @@
+<resources>
+    <string-array name="urls">
+        <item>http://m.google.com</item>
+        <!--
+        <item>http://jeffreypeacock.com/uci/x402.40/data/location-0.xml</item>
+        <item>http://jeffreypeacock.com/uci/x402.40/data/location-1.xml</item>
+        <item>http://jeffreypeacock.com/uci/x402.40/data/location-2.xml</item>
+        <item>http://jeffreypeacock.com/uci/x402.40/data/location-3.xml</item>
+        <item>http://jeffreypeacock.com/uci/x402.40/data/location-4.xml</item>
+        -->
+    </string-array>
+    <string-array name="locations">
+        <item>33.652923,-117.843161</item>
+        <!-- location-0.xml -->
+        <item>38.897684,-77.036605</item>
+        <item>24.551271,-81.800543</item>
+        <item>38.004651,-78.455601</item>
+        <!-- location-3.xml is missing -->
+        <!-- location-4.xml -->
+        <item>27.983487,86.922112</item>
+        <item>36.057495,-112.13743</item>
+        <item>33.806948,-117.915628</item>
+        <item>33.657160,-118.002010</item>
+        <item>36.057495,-112.13743</item>
+        <!-- location-9.xml is missing -->
+    </string-array>
+</resources>

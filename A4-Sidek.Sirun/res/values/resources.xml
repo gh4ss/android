@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings/Resources that are not Internationalized -->
+    
+    <string name="feed_url">http://www.jeffreypeacock.com/uci/x402.40/data/</string>
+</resources>
